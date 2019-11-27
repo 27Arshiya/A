@@ -11,6 +11,7 @@ WebDriver driver=new ChromeDriver();
 driver.get("https://www.ultimatix.net");
 	WebElement txtUser=driver.findElement(By.id("form1"));
 	txtUser.sendKeys("1093272");
+	driver.quit();
 	
 }
 }
